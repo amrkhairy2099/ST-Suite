@@ -1,0 +1,244 @@
+:root {
+   --blue-color: #53ACFF;
+   --orange-color: #D94111;
+   --green-color: #118F4B;
+   --bg-black: #202020;
+   --bg-color-2: #00000061;
+   --color-3: #4a4a4a;
+   --bg-bwhite: #414040;
+   --bg-color-4: #141414;
+   --drop-shadow: 10px 4px 21.100000381469727px 0px rgba(0, 0, 0, 0.38);
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   overflow: hidden;
+}
+
+.App {
+   background-color: var(--bg-black);
+   display: grid; 
+   grid-template-columns: 50px 1fr 30%;
+   gap: 1%;
+}
+.home {
+   background-color: var(--bg-black);
+   height: 100vh;
+}
+.row {
+   display: flex;
+   justify-content: space-between;
+}
+.search section {
+   align-items: center;
+}
+.search-box {
+   background-color: var(--bg-bwhite);
+   width: 70%;
+   border-radius: 6px;
+}
+.search h1 {
+   font-size: 60px;
+   font-weight: bold;
+}
+.search-box input {
+   background-color: transparent;
+   width: 100%;
+   border: none;
+   outline: none;   
+}
+.search .search-box input::placeholder {
+   color: #fff;
+}
+.search .search-box input {
+   font-weight: 300;
+   color: #fff;
+}
+.search .signer {
+   position:relative;
+}
+.search .signer span {
+   position: absolute;
+   background-color: var(--green-color);
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   line-height: 20px;
+   text-align: center;
+   color: white;
+   bottom: 10px;
+   left: 6px;
+}/* Start Nav Bar */
+.navbar {
+   background-color: var(--bg-black);
+   height: 100vh;
+   box-shadow: var(--drop-shadow);
+   z-index: 999;
+   transition: width 3s;
+   overflow: hidden;
+}
+.navbar .logo {  
+   width: 100%;
+   height: 90px;
+   padding: 8px;
+   transition: all 0.3s;
+   overflow: hidden;
+}
+.navbar .logo img {
+   scale: 1.5;
+}
+.navbar:hover .logo img {
+   scale: 1;
+}
+.navbar ul {
+   flex-direction: column;
+}
+.navbar li {
+   display: inline-flex;
+   align-items: center;
+}
+.navbar a:hover {
+   color: var(--blue-color);
+}
+.navbar span {
+   padding: 10px;
+}
+.navbar svg {
+   width: 25px;
+   height: 25px;
+}
+.navbar:hover {
+   width: 200px;
+   transition: 3s;
+}
+/* End Nav Bar */
+/* Start filter */
+.filter h1 {
+   font-weight: 500;
+   margin: 0 auto;
+}
+.filter {
+   background-color: var(--bg-color-2);
+   margin-top: 15px;
+   padding: 15px;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   color: #aaa;
+}
+.filter .filter-chose > span {
+   color: var(--bg-bwhite);
+   margin: 0 5px;
+}
+.filter .filter-chose .chosen {
+   background-color: var(--bg-black);
+   padding: 3px;
+   border-radius: 6px;
+   height: 50px;
+   overflow-Y: scroll;
+}
+.filter .chosen button {
+   background-color: var(--blue-color);
+   border-radius: 4px;
+}
+.filter .stock {
+   background-color: var(--bg-black);
+   padding: 10px; 
+   margin: 10px 0;
+   border-radius: 6px;
+}
+.filter .search-box {
+   width: 95%; 
+   margin: 0 auto; 
+   margin-bottom: 10px;
+}
+.filter .search-box input::placeholder {
+   color: var(--color-2);
+}
+.filter .search-box input {
+   font-weight: 300;
+   color: var(--color-2);
+}
+
+.filter .industry ul {
+   border-left: 1px solid var(--color-3);
+   padding: 2px 10px;
+}
+.filter .active {
+   background-color: var(--blue-color);
+   color: var(--bg-black);
+   border-radius: 5px;
+}
+.filter button[disabled] {
+   cursor: no-drop;
+}
+.filter.strategy > div {
+   margin: 0 15px;
+}
+
+.filter input[type = "checkbox"] {
+   visibility: hidden;
+}
+.filter .radio {
+   position: relative;
+   background-color: var(--bg-bwhite);
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.filter .radio span {
+   position: absolute;
+   background-color: var(--bg-black);
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+}
+.filter input:checked + span {
+   background-color: var(--blue-color);
+}
+/* Ens filter */
+.pages {
+   height: 100vh;
+}
+/* Start Alerts */
+.box {
+   background-color: var(--bg-bwhite);
+   padding: 4px;
+   border-radius: 6px;
+}
+.alerts {
+   height: 100vh;
+   padding-bottom: 10rem;
+   overflow-Y: scroll;
+}
+.alert {
+   border-radius: 6px;
+   background-color: var(--bg-color-4);
+}
+.alerts .holder > div {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.alerts .holder > div:not(:last-child){
+   border-right: 1px solid var(--color-3);
+}
+.hide {
+   display: none;
+}
+.show {
+   display: block;
+}
+.bg-blue {
+   background-color: var(--blue-color);
+}
+/* End Alerts */
+.btn-1 {
+   background-color: var(--blue-color);
+   color: white;
+   border-radius: 6px;
+}
+

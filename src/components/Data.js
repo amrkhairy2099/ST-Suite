@@ -1,0 +1,317 @@
+export const filterBtns = [
+   {
+      id: 1,
+      name: "Health Care",
+      icon: "../images/heart.svg",
+   },
+   {
+      id: 2,
+      name: "Materials",
+      icon: "../images/materials.png",
+   },
+   {
+      id: 3,
+      name: "Energy",
+      icon: "../images/energy.png",
+   },
+   {
+      id: 4,
+      name: "Consumer Discretionary",
+      icon: "../images/dolar.svg",
+   },
+   {
+      id: 5,
+      name: "Consumer Staples",
+      icon: "../images/cart.png",
+   },
+   {
+      id: 6,
+      name: "Real Estate",
+      icon: "../images/home.svg",
+   },
+   {
+      id: 7,
+      name: "IT",
+      icon: "../images/IT.png",
+   },
+   {
+      id: 8,
+      name: "Communication",
+      icon: "../images/communication.png",
+   },
+   {
+      id: 9,
+      name: "Industrials",
+      icon: "../images/industrials.png",
+   },
+   {
+      id: 10,
+      name: "Uillities",
+      icon: "../images/uillities.png",
+   },
+   {
+      id: 10,
+      name: "Financials",
+      icon: "../images/financials.svg",
+   }
+]
+
+export const otherFilter = [
+   {
+      id: 1, 
+      name: "micro",
+      title: "Micro"
+   },
+   {
+      id: 2, 
+      name: "small",
+      title: "Small"
+   },
+   {
+      id: 3, 
+      name: "large",
+      title: "Large"
+   },
+   {
+      id: 4, 
+      name: "low-Risk",
+      title: "Low Risk"
+   },
+   {
+      id:5, 
+      name: "midl-risk",
+      title: "Midl Risk"
+   },
+   {
+      id: 6, 
+      name: "high -Risk",
+      title: "High  Risk"
+   },
+]
+
+export const alerts = [
+   {
+      id: 1,
+      icon: "../images/dolar-arrow.svg",
+      name: "AM2N",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "Low Rosk",
+   },
+   {
+      id: 2,
+      icon: "../images/dolar-arrow.svg",
+      name: "TSLA",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "Low Rosk",
+   },
+   {
+      id: 3,
+      icon: "../images/dolar-arrow.svg",
+      name: "ABQQ",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 4,
+      icon: "../images/dolar-arrow.svg",
+      name: "MSTF",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "Low Rosk",
+   },
+   {
+      id: 5,
+      icon: "../images/dolar-arrow.svg",
+      name: "PYPL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "Low Rosk",
+   },
+   {
+      id: 6,
+      icon: "../images/dolar-arrow.svg",
+      name: "NFLX",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "Low Rosk",
+   },
+   {
+      id: 7,
+      icon: "../images/dolar-arrow.svg",
+      name: "BMW",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 8,
+      icon: "../images/dolar-arrow.svg",
+      name: "MRC",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "Low Rosk",
+   },
+   {
+      id: 9,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 10,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 11,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 12,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 13,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 14,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 15,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+   {
+      id: 16,
+      icon: "../images/dolar-arrow.svg",
+      name: "MGNL",
+      fileIcon: "../images/file.svg",
+      num: 200,
+      diagram: "../images/diagram.svg",
+      precent: "-0.25 %",
+      dolar: "../images/dolar-2.svg",
+      type: "High Rosk",
+   },
+]
+
+export const industryBtn = [
+   {
+      id: 1, 
+      name: "Heath Care",
+      icon: "",
+   },
+   {
+      id: 2, 
+      name: "midl risk",
+   },
+   {
+      id: 3, 
+      name: "high Risk",
+   },
+   {
+      id: 4, 
+      name: "high Risk",
+   },
+   {
+      id: 5, 
+      name: "high Risk",
+   },
+   {
+      id: 6, 
+      name: "high Risk",
+   },
+   {
+      id: 7, 
+      name: "high Risk",
+   },
+   {
+      id: 8, 
+      name: "high Risk",
+   },
+   {
+      id: 9, 
+      name: "high Risk",
+   },
+   {
+      id: 10, 
+      name: "high Risk",
+   },
+   {
+      id: 11, 
+      name: "high Risk",
+   },
+]
